@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-과제-로그인화면</title>
+    
+     <style>
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+    #html{
+        background-color: #f5f6f7;
+        
+    }
+        #중앙{
+            text-align: center;
+            
+        }
+        #logo{
+            font-size: 200%;
+            font-weight: bolder;
+            color: #03c75a;
+            padding: 20px 40px;
+            font-family: 'Black Han Sans';
+            font-size: 50px;
+
+        }
+        #로그인{
+            padding: 13px 150px;
+            background-color: #03c75a;
+            border: white;
+            font-family: 'Pretendard-Regular';
+            font-size: 17px;
+            color: white;
+        }
+        #로그인p{
+            padding: 16px 20px 50px 20px
+        }
+        #아이디비번{
+            width:300px;
+            padding: 9px 10px;
+            text-align: left;
+            
+        }
+        .reg{
+            margin: 30px;
+        }
+        #링크사이즈{
+            font-size: small;
+        }
+        #l, #i, #n{
+            padding: 0px 5px 0px 5px;
+            text-decoration: none;
+            color: #929294;
+            
+        }
+            #i{
+                border-right: 1px solid  #929294;
+                padding: 0px 6px 0px 5px;
+                
+            }
+            #l{
+                border-right: 1px solid  #929294;
+                padding: 0px 9px 0px 4px;
+            }
+            #n{
+                padding: 0px 0px 0px 9px;
+            }
+        hr{
+            color: #929294;
+           width: 70%;
+        }
+        
+        
+
+     </style>
+</head>
+<body>
+    <div id="중앙">
+        <div class="wrapper">
+
+
+             <div class="header">
+             <h1 id="logo">NAVER</h1>
+        </div>
+
+            <div>
+             <P><input id="아이디비번" type="text" name="userid" placeholder="아이디"></P>
+             <P><input id="아이디비번" type="password" name="userpw" placeholder="비밀번호"></P>
+            </div>
+                 <P id="로그인p"><input id="로그인" type="button" value="로그인"></P>
+        
+
+
+    </div>
+
+    <div class="footer">
+            <hr>
+
+        <p class="reg">
+        
+            <div id="링크사이즈">
+            <a id="l" href="">아이디찾기</a>
+            <a id="i"href="">비밀번호찾기 </a>
+            <a id="n"href="">회원가입</a>
+        </div>
+
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
